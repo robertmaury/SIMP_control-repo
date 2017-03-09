@@ -1,5 +1,13 @@
 class profile::base {
 
-  #the base profile should include component modules that will be on all nodes
+  class simp {'simp': 
+    stock_sssd => false,
+    sssd       => false,
+    scenario   => 'simp',
+  }
+
+  class simp_options::dns { 'dns':
+    servers => ['8.8.8.8'],
+  }
 
 }
