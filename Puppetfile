@@ -318,7 +318,7 @@ mod 'simp-selinux',
 
 mod 'simp-simp',
   :git => 'https://github.com/simp/pupmod-simp-simp',
-  :ref => 'e5cb0fae497e4fb84528796a7031f84afd59d85a'
+  :ref => '52537b7175131f4e1a68629af3de4b3f260d8359',
 
 mod 'simp-simpcat',
   :git => 'https://github.com/simp/pupmod-simp-simpcat',
