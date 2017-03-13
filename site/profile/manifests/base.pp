@@ -1,9 +1,9 @@
 class profile::base {
 
   class { 'pupmod':
-    server => 'puppet',
-    ca     => 'puppet',
-    mock   => true,
+    puppet_server => 'puppet',
+    ca_server     => 'puppet',
+    mock          => true,
   }
 
   class { 'simp_options::dns':
