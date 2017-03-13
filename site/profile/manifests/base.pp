@@ -3,7 +3,6 @@ class profile::base {
   class { 'pupmod':
     puppet_server => 'puppet',
     ca_server     => 'puppet',
-    mock          => true,
   }
 
   class { 'simp_options':
