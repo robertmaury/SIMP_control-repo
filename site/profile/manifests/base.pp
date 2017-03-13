@@ -6,10 +6,6 @@ class profile::base {
     mock          => true,
   }
 
-  class { 'simp_options::dns':
-    servers => ['10.0.2.3'],
-  }
-
   class { 'simp_options':
     auditd       => true,
     clamav       => true,
