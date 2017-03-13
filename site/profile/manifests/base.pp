@@ -7,7 +7,8 @@ class profile::base {
   }
 
   class { 'simp_options::dns':
-    servers => ['8.8.8.8'],
+    trusted_nets => ['127.0.0.1', '::1','172.28.128.0/24',10.0.2.0/24'],
+    servers => '10.0.2.3',
   }
 
 }
