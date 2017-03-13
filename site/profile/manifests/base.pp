@@ -17,6 +17,12 @@ class profile::base {
     servers => '10.0.2.3',
   }
 
+
+  class { 'simp_options::puppet':
+    server => 'puppet',
+    ca     => 'puppet',
+  }
+
   class { 'simp': 
     stock_sssd => false,
     sssd       => false,
