@@ -7,7 +7,7 @@ class profile::base {
   }
 
   class { 'simp_options::dns':
-    servers => '10.0.2.3',
+    servers => ['10.0.2.3'],
   }
 
   class { 'simp_options':
