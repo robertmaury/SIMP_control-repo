@@ -340,10 +340,6 @@ mod 'simp-simp_logstash',
   :git => 'https://github.com/simp/pupmod-simp-simp_logstash',
   :ref => 'd78a6188f5ad6cdf8e0a4e8083b833d2432cdddb'
 
-mod 'simp-simp_options',
-  :git => 'https://github.com/simp/pupmod-simp-simp_options',
-  :ref => '26e70080b153c37aacbf725b4603f5f0c5698bf6'
-
 mod 'simp-simp_nfs',
   :git => 'https://github.com/simp/pupmod-simp-simp_nfs',
   :ref => '5ed90c390cdf72ccc10cbe1f79dcb08a17aed4cb'
