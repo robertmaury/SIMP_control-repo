@@ -5,7 +5,7 @@ class profile::base {
   }
 
   class { 'simp::yum':
-    servers => 'puppet',
+    servers => '172.28.128.4',
   }
 
   class { 'simp': 
