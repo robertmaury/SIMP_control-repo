@@ -17,7 +17,7 @@ class simp_options::puppet (
   Simplib::Host $server  = 'puppet',
   Simplib::Host $ca      = 'puppet',
   Simplib::Port $ca_port = 8141,
-  Simplib::Serverdistribution $server_distribution = 'PC1'
+  Simplib::Serverdistribution $server_distribution = 'PE'
 ){
   assert_private()
   validate_net_list($server)
