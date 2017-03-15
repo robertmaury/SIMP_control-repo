@@ -1,7 +1,14 @@
 class profile::yumserver {
 
-  class { 'simp_apache':
-    ssl => false,
+  class { 'apache':
+    default_vhost => false,
+  }
+
+  apache::vhost { 'default':
+    port          => '80',
+    docroot       => '/var/www/html',
+    docroot_owner => 'www-data',
+    docroot_group => 'www-data',
   }
 
   class { 'simp::server::yum':
