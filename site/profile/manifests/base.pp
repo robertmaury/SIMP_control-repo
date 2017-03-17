@@ -14,4 +14,8 @@ class profile::base {
     scenario   => 'simp',
   }
 
+  class { 'openscap':
+    enable_schedule => true,
+  }
+
 }
