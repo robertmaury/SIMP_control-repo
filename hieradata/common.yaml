@@ -43,7 +43,7 @@ simp_options::kerberos: false
 
 classes:
   - 'aide'
-  - 'auditd'
+#  - 'auditd'
   # Virus scanning.
   - 'clamav'
   - 'chkrootkit'
