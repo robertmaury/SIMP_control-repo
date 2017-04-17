@@ -22,8 +22,4 @@ class profile::base {
     enable_schedule => true,
   }
 
-  class { 'auditd':
-    root_audit_level => 'insane',
-  }
-
 }
