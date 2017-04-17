@@ -40,6 +40,8 @@ simp_options::tcpwrappers: true
 simp_options::ipsec: false
 simp_options::kerberos: false
 
+auditd::root_audit_level: 'insane'
+
 classes:
   - 'aide'
   - 'auditd'
