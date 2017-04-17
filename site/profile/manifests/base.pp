@@ -1,5 +1,9 @@
 class profile::base {
 
+  class { 'aide':
+    enable => true,
+  }
+
   class { 'simp_options':
     trusted_nets => ['127.0.0.1', '::1','172.28.128.0/24','10.0.2.0/24'],
   }
@@ -16,6 +20,10 @@ class profile::base {
 
   class { 'openscap':
     enable_schedule => true,
+  }
+
+  class { 'auditd':
+    root_audit_level => 'insane',
   }
 
 }
