@@ -8,6 +8,7 @@ simp_options::dns::search :
   - 'simp.local'
 simp_options::dns::servers :
   - '10.0.2.3'
+auditd::root_audit_level : 'insane'
 # simp_options::dns::search :
 #   - 'bar.baz'
 # simp_options::dns::servers :
