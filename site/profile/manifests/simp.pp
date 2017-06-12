@@ -10,4 +10,8 @@ class profile::simp {
     rsync_stunnel => false,
   }
 
+  class { 'openscap':
+    enable_schedule => true,
+  }
+
 }
