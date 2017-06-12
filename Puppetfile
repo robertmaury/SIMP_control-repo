@@ -1,17 +1,3 @@
-#moduledir 'modules'
-
-mod 'simp-doc',
-  :git => 'https://github.com/simp/simp-doc',
-  :ref => '250e75c0b3d31f094ec3165c03dabf6c23487cac'
-
-mod 'simp-rsync',
-  :git => 'https://github.com/simp/simp-rsync',
-  :ref => '6b3ded441b65f603842396a6072641d1c35e124c'
-
-mod 'rubygem-simp_cli',
-  :git => 'https://github.com/simp/rubygem-simp-cli',
-  :ref => '4ad5b2f176aa80ea931a8f49723361e3af6e465c'
-
 mod 'bfraser-grafana',
   :git => 'https://github.com/simp/puppet-grafana',
   :ref => '6d426d5ccc52ff23dbbcfc45290dafd224b5d2bc'
@@ -86,7 +72,7 @@ mod 'herculesteam-augeasproviders_sysctl',
 
 mod 'onyxpoint-gpasswd',
   :git => 'https://github.com/simp/puppet-gpasswd',
-  :ref => 'f235c7b032a6abca5b73687221a8fdf8f151691a'
+  :ref => '04431f902da8b20527e1cb5eb98ec6f4fefd6429'
 
 mod 'puppetlabs-apache',
   :git => 'https://github.com/simp/puppetlabs-apache',
@@ -146,11 +132,11 @@ mod 'simp-aide',
 
 mod 'simp-at',
   :git => 'https://github.com/simp/pupmod-simp-at',
-  :ref => '4deddd8c4e3c5fb1320b017e6ab52828234d58be'
+  :ref => '35bf42043b4b664a61b6b6b6d851ea1ee3b14160'
 
 mod 'simp-auditd',
   :git => 'https://github.com/simp/pupmod-simp-auditd',
-  :ref => 'fc667847581bf5bcb24f13b6cb7ae1121450191c'
+  :ref => '01d15c8d79ce9243c682863b3268200e3f6ee50a'
 
 mod 'simp-autofs',
   :git => 'https://github.com/simp/pupmod-simp-autofs',
@@ -166,7 +152,7 @@ mod 'simp-clamav',
 
 mod 'simp-compliance_markup',
   :git => 'https://github.com/simp/pupmod-simp-compliance_markup',
-  :ref => '16c660d5b56be37cbe44ecbfac87bfc61ed40bfd'
+  :ref => 'cadc444b001ef06f423dca141229cc91d043e932'
 
 mod 'simp-cron',
   :git => 'https://github.com/simp/pupmod-simp-cron',
@@ -178,11 +164,11 @@ mod 'simp-dhcp',
 
 mod 'simp-dirtycow',
   :git => 'https://github.com/simp/pupmod-simp-dirtycow.git',
-  :ref => 'af1fbbb1d4cfccd5fe99961ed77f16ff76db01d8'
+  :ref => 'e6191625e791d711f72eaf9ed4fb8e54c80a5968'
 
 mod 'simp-fips',
   :git => 'https://github.com/simp/pupmod-simp-fips',
-  :ref => '5e749c0ba51c93bcc7570be1221d7a75937d9eeb'
+  :ref => 'bde5e71939f7e3c1801d44bb2df825ccef6f1a09'
 
 mod 'simp-freeradius',
   :git => 'https://github.com/simp/pupmod-simp-freeradius',
@@ -190,11 +176,11 @@ mod 'simp-freeradius',
 
 mod 'simp-gdm',
   :git => 'https://github.com/simp/pupmod-simp-gdm',
-  :ref => '5d1c85bbf0d07c8402c18e627a4a73fc9fd1f84a'
+  :ref => 'b50ca2bb9a3482620379b747736e9ba0b3bf3084'
 
 mod 'simp-gnome',
   :git => 'https://github.com/simp/pupmod-simp-gnome',
-  :ref => 'f3a95330b79b67913a48b1a2cfe85d5582b6ed66'
+  :ref => 'e706e2b2e22cecdca86d2ee48143a1c607a486df'
 
 mod 'simp-haveged',
   :git => 'https://github.com/simp/puppet-haveged',
@@ -218,11 +204,11 @@ mod 'simp-jenkins',
 
 mod 'simp-journald',
   :git => 'https://github.com/simp/pupmod-simp-journald.git',
-  :ref => '26e4c303fd7bd6c61db469cbc63616e82a6f425b'
+  :ref => '0a6df1389b58ac787f3339a7f6ac3d1cdf56b9b9'
 
 mod 'simp-krb5',
   :git => 'https://github.com/simp/pupmod-simp-krb5',
-  :ref => '6bd6e1a197b6fef9763b760a3cbd8970b31250be'
+  :ref => '04941954129a52863368c3907f674aecd655271a'
 
 mod 'simp-libreswan',
   :git => 'https://github.com/simp/pupmod-simp-libreswan',
@@ -230,7 +216,7 @@ mod 'simp-libreswan',
 
 mod 'simp-libvirt',
   :git => 'https://github.com/simp/pupmod-simp-libvirt',
-  :ref => '4d34e3dedf9f3bb247a69f09d45964f947ad34eb'
+  :ref => '6b3f491f14ba2a05287d80578976d7f568b0c3c6'
 
 mod 'simp-logrotate',
   :git => 'https://github.com/simp/pupmod-simp-logrotate',
@@ -250,19 +236,19 @@ mod 'simp-mozilla',
 
 mod 'simp-named',
   :git => 'https://github.com/simp/pupmod-simp-named',
-  :ref => '782a219c13788ecc4a490d1d9ee1bed4d5fca287'
+  :ref => '7f4d09657bb4de03c73efaa0e87c6a9047b99c95'
 
 mod 'simp-network',
   :git => 'https://github.com/simp/pupmod-simp-network',
-  :ref => '0b7a1909223f6d03dc4093d13d2d9fee2d712fca'
+  :ref => '328c9780c946524ff7e6fe4396c5df4e2cea66b5'
 
 mod 'simp-nfs',
   :git => 'https://github.com/simp/pupmod-simp-nfs',
-  :ref => '975f88b67816d547253a51c75cce136fe1a661b7'
+  :ref => 'e38c835d06e70520a7403b1dd69c0e7322285b81'
 
 mod 'simp-ntpd',
   :git => 'https://github.com/simp/pupmod-simp-ntpd',
-  :ref => '89d315c35148925272efdac1c0b44ff51b2dcfe4'
+  :ref => '916e56bd6c30e7d1fa00c35cf1b699848bde9bfe'
 
 mod 'simp-oddjob',
   :git => 'https://github.com/simp/pupmod-simp-oddjob',
@@ -270,15 +256,15 @@ mod 'simp-oddjob',
 
 mod 'simp-simp_openldap',
   :git => 'https://github.com/simp/pupmod-simp-simp_openldap',
-  :ref => '085a7e373d6c44a39dd2698461f51a86805f771d'
+  :ref => '0adc282a69b3d016049f8146578dff47cd5ef3d5'
 
 mod 'simp-openscap',
   :git => 'https://github.com/simp/pupmod-simp-openscap',
-  :ref => 'bd82f5f1a84745ea1b98407cb53f7e2cafe13dfc'
+  :ref => '9c26e36c57a9ad0451bb0a94440e0cfd62e77179'
 
 mod 'simp-pam',
   :git => 'https://github.com/simp/pupmod-simp-pam',
-  :ref => '020dbdee9ebdf17e0303e5f8b11a0d4a1c814a87'
+  :ref => '40a92d652ecb700674dc12a7bc4d6a3914eb0a27'
 
 mod 'simp-pki',
   :git => 'https://github.com/simp/pupmod-simp-pki',
@@ -294,7 +280,7 @@ mod 'simp-postfix',
 
 mod 'simp-pupmod',
   :git => 'https://github.com/simp/pupmod-simp-pupmod',
-  :ref => '88790fe1c4ab49392eb59c2e7a8f9f343aa66aaa'
+  :ref => 'bc9a0313d1b67d5f6cf3c69677f733d9e717c0d2'
 
 mod 'simp-puppetdb',
   :git => 'https://github.com/simp/puppetlabs-puppetdb',
@@ -306,19 +292,19 @@ mod 'simp-resolv',
 
 mod 'simp-rsync',
   :git => 'https://github.com/simp/pupmod-simp-rsync',
-  :ref => '510bb662128e896a78dafd7ed7ac739025118457'
+  :ref => '5a065194f3369e29a7d3e092722ffd1bf9b8b822'
 
 mod 'simp-rsyslog',
   :git => 'https://github.com/simp/pupmod-simp-rsyslog',
-  :ref => 'f0d3d56d6a9e1c5dbb456f128e5763309c8b78b0'
+  :ref => '14f0ef46df315121c0e136281ac124c57aaf7b91'
 
 mod 'simp-selinux',
   :git => 'https://github.com/simp/pupmod-simp-selinux',
-  :ref => 'a30e005c6c4e7438e2a3e7fc850e14a5f4c60c4a'
+  :ref => '75393fc9d159d3e4fb08a1324220a45bda6212c6'
 
 mod 'simp-simp',
   :git => 'https://github.com/simp/pupmod-simp-simp',
-  :ref => '52537b7175131f4e1a68629af3de4b3f260d8359'
+  :ref => 'c0906fbf43f24cc9286429e8ee81035be7a36084'
 
 mod 'simp-simpcat',
   :git => 'https://github.com/simp/pupmod-simp-simpcat',
@@ -330,43 +316,47 @@ mod 'simp-simp_apache',
 
 mod 'simp-simp_elasticsearch',
   :git => 'https://github.com/simp/pupmod-simp-simp_elasticsearch',
-  :ref => '5acdadfc21f06ec109c4a4a23c2945415a180ad6'
+  :ref => '5d09a3ace93c3daa97e02ab0863ccf554150fd02'
 
 mod 'simp-simp_grafana',
   :git => 'https://github.com/simp/pupmod-simp-simp_grafana',
-  :ref => '7c31ca566f03b438084adc693ab5c0d3f5f36e4b'
+  :ref => 'd1c22d138a6775377d18746c2f02c02d4b2c0f6a'
 
 mod 'simp-simp_logstash',
   :git => 'https://github.com/simp/pupmod-simp-simp_logstash',
   :ref => 'd78a6188f5ad6cdf8e0a4e8083b833d2432cdddb'
 
+mod 'simp-simp_options',
+  :git => 'https://github.com/simp/pupmod-simp-simp_options',
+  :ref => '26e70080b153c37aacbf725b4603f5f0c5698bf6'
+
 mod 'simp-simp_nfs',
   :git => 'https://github.com/simp/pupmod-simp-simp_nfs',
-  :ref => '5ed90c390cdf72ccc10cbe1f79dcb08a17aed4cb'
+  :ref => '4842bd85edd6d94a0211b5cf02299ccaf552baf9'
 
 mod 'simp-simp_rsyslog',
   :git => 'https://github.com/simp/pupmod-simp-simp_rsyslog',
-  :ref => 'bac200cbef242f08dfc3a570680667d2812e65c0'
+  :ref => 'd72f2b1596b4f1f7c52a27c10d8d1fb59e1508d8'
 
 mod 'simp-simplib',
   :git => 'https://github.com/simp/pupmod-simp-simplib',
-  :ref => '7a1122b00866c3123f3b14b4fc0273972e5692c5'
+  :ref => 'a5c2758c2d08a23c1a824d132ac4bc1ee5a27651'
 
 mod 'simp-site',
   :git => 'https://github.com/simp/pupmod-simp-site',
-  :ref => '6d0f0d65f5fbf2af281382f174282c98bca4c075'
+  :ref => '61327ae260572365cab6f778cd78f7769aa0d16e'
 
 mod 'simp-ssh',
   :git => 'https://github.com/simp/pupmod-simp-ssh',
-  :ref => 'c4ad9f5f9209598a27ded66f4e72bec2f2466aad'
+  :ref => '2ff26a6690be2fdbd9e68210bcaf5f4cdc9088bc'
 
 mod 'simp-sssd',
   :git => 'https://github.com/simp/pupmod-simp-sssd',
-  :ref => '428624f9996c790e81641ede453a27ef7b5ff285'
+  :ref => 'b4b581657b5564fcece59014d96b04631b97d29a'
 
 mod 'simp-stunnel',
   :git => 'https://github.com/simp/pupmod-simp-stunnel',
-  :ref => '87f9d4fa80d1f437bc9c597ca4d0634a5f37e6a8'
+  :ref => '5ae55eb3c41e038ecde0a7166b85a5e19018f344'
 
 mod 'simp-sudo',
   :git => 'https://github.com/simp/pupmod-simp-sudo',
@@ -378,7 +368,7 @@ mod 'simp-sudosh',
 
 mod 'simp-svckill',
   :git => 'https://github.com/simp/pupmod-simp-svckill',
-  :ref => 'a4c027eeb4cc8091c0771c9c29eb8e099acc75d8'
+  :ref => 'fadd9e6c6a4a163fc77aa27cc7be7b9c7dd0a4a7'
 
 mod 'simp-swap',
   :git => 'https://github.com/simp/pupmod-simp-swap',
@@ -418,7 +408,7 @@ mod 'simp-xinetd',
 
 mod 'simp-useradd',
   :git => 'https://github.com/simp/pupmod-simp-useradd',
-  :ref => '97f37c0f2c985695526907ceafd15d738c346244'
+  :ref => '31ce72beec33febc55a187059c34ffa8ac87e71f'
 
 mod 'trlinkin-nsswitch',
   :git => 'https://github.com/simp/puppet-nsswitch',
