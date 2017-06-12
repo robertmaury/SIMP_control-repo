@@ -8,11 +8,6 @@ class profile::base {
     trusted_nets => ['127.0.0.1', '::1','172.28.128.0/24','10.0.2.0/24'],
   }
 
-  class { 'simp_options::puppet':
-    server => '172.28.128.8',
-    ca     => '172.28.128.8',
-    }
-
   class { 'simp::yum':
     servers => ['172.28.128.9'],
   }
