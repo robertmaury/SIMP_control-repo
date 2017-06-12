@@ -4,6 +4,10 @@ simp_options::trusted_nets :
   - 127.0.0.1'
   - 172.28.128.0/24
   - 10.0.2.0/24
+simp_options::dns::search :
+  - 'simp.local'
+simp_options::dns::servers :
+  - '10.0.2.3'
 # simp_options::dns::search :
 #   - 'bar.baz'
 # simp_options::dns::servers :
