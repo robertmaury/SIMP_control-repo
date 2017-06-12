@@ -1,5 +1,7 @@
 class profile::simp {
 
-  class { 'simp': }
+  class { 'simp':
+    sssd => false,
+  }
 
 }
