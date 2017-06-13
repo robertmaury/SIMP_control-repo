@@ -1,5 +1,12 @@
 ---
 # Globals
+simp_options::puppet::ca : '172.28.128.4'
+simp_options::puppet::ca_port : 8141
+simp_options::puppet::server : '172.28.128.4'
+simp_options::rsync::server : '127.0.0.1'
+simp_options::rsync::timeout : 1
+simp_options::auditd : true
+simp_options::firewall : true
 simp_options::trusted_nets :
   - 127.0.0.1
   - 172.28.128.0/24
@@ -8,22 +15,8 @@ simp_options::dns::search :
   - 'simp.local'
 simp_options::dns::servers :
   - '10.0.2.3'
-auditd::root_audit_level : 'insane'
-# simp_options::dns::search :
-#   - 'bar.baz'
-# simp_options::dns::servers :
-#   - 1.2.3.4
-simp_options::puppet::ca : '172.28.128.4'
-simp_options::puppet::ca_port : 8141
-simp_options::puppet::server : '172.28.128.4'
-# simp_options::rsync::server : 'rsync.bar.baz'
-simp_options::rsync::timeout : 1
-simp_options::selinux : false
-simp_options::auditd : true
-simp_options::firewall : true
+simp_options::selinux : true
 
-# Management of Specific Classes
-# simp::yum::repo::local_simp::servers:
-#   - 'yum.bar.baz'
-# simp::yum::repo::local_os_updates::servers:
-#   - 'yum.bar.baz'
+auditd::root_audit_level : 'insane'
+
+aide::enable : true
