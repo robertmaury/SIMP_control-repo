@@ -7,6 +7,9 @@ simp_options::rsync::server : '127.0.0.1'
 simp_options::rsync::timeout : 1
 simp_options::auditd : true
 simp_options::firewall : true
+simp_options::clamav : false
+simp_options::rsync : false
+simp_options::stunnel : false
 simp_options::trusted_nets :
   - 127.0.0.1
   - 172.28.128.0/24
